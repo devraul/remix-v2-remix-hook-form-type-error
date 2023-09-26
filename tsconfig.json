@@ -13,13 +13,10 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    // OLD REMIX SETUP
-    "module": "Node16",
-    "moduleResolution": "node",
-    "target": "ES2019",
     // NEW REMIX SETUP
-    // "target": "ES2022",
-    // "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
     "resolveJsonModule": true,
     "strict": true,
     "allowJs": true,
